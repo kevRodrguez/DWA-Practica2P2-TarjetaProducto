@@ -1,0 +1,22 @@
+﻿@model TarjetaProductoViewModel
+
+<article class="tarjeta-producto">
+    <h2 class="tarjeta-producto__titulo h3">Tarjeta de Producto</h2>
+
+    <p class="tarjeta-producto__detalle">
+        <span class="tarjeta-producto__etiqueta">Nombre del producto:</span>
+        @Model.NombreProducto
+    </p>
+
+    <p class="tarjeta-producto__detalle">
+        <span class="tarjeta-producto__etiqueta">Precio:</span>
+        @Model.Precio
+    </p>
+
+    <p class="tarjeta-producto__detalle">
+        <span class="tarjeta-producto__etiqueta">Descripcion:</span>
+        @Model.Descripcion
+    </p>
+
+    <button type="button" class="btn btn-primary">Comprar</button>
+</article>

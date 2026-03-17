@@ -21,6 +21,43 @@ body {
   margin-bottom: 60px;
 }
 
+.product-page {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.product-page__header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.tarjeta-producto {
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.tarjeta-producto__titulo {
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.tarjeta-producto__detalle {
+  margin-bottom: 0.75rem;
+  color: #334155;
+}
+
+.tarjeta-producto__detalle:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.tarjeta-producto__etiqueta {
+  font-weight: 700;
+  margin-right: 0.35rem;
+}
+
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);
   text-align: end;

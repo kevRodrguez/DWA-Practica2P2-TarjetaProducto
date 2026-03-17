@@ -15,12 +15,26 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        var producto = new TarjetaProductoViewModel
+        {
+            NombreProducto = "Laptop HP Pavilion",
+            Precio = "$899.99",
+            Descripcion = "Equipo ideal para clases, desarrollo web y tareas universitarias."
+        };
+
+        return View(producto);
     }
 
     public IActionResult Privacy()
     {
-        return View();
+        var producto = new TarjetaProductoViewModel
+        {
+            NombreProducto = "Mouse Inalambrico Logitech",
+            Precio = "$24.99",
+            Descripcion = "Accesorio comodo y practico para acompanar tu espacio de estudio."
+        };
+
+        return View(producto);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -1,0 +1,32 @@
+# Directorios de compilación
+bin/
+obj/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.userprefs
+
+# Carpetas de IDE
+.vs/
+.vscode/
+.idea/
+
+# Archivos de configuración local
+appsettings.Development.json
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+*~
+
+# NuGet
+.nuget/
+
+# Archivos de caché
+.cache/
+
